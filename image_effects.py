@@ -1,3 +1,7 @@
+##NOTE##
+#The code above was run on Google Colab. The main changes done were in the imshow attribute of cv2. 
+#Google Colab doesn't necessarily support imshow, hence it has its own module cv2_imshow. 
+#If you are running the code on a platform which is not colab, you will have to change cv2_imshow to cv2.imshow
 !pip install wand
 !apt-get update
 !apt-get install libmagickwand-dev
